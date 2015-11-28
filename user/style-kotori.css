@@ -1,0 +1,44 @@
+/** NicoNicoNi! */
+.register-page,.login-page{
+	background-image:url('./1.jpg');
+	background-size:cover;
+	background-position:center;
+}
+.login-box-body,.register-box-body{
+	opacity:0.7;
+}
+.main-footer{
+	opacity: 0.7;
+	background-color: #fff;
+}
+@media screen and (min-width: 992px){
+	.sidebar-toggle,.main-sidebar{
+		display: none;
+	}
+	.content-wrapper, .main-footer{
+		margin-left: 0px; 
+	}
+}
+@font-face{
+	font-family:'roboto';
+	src:url(../asset/materialize/font/roboto/Roboto-Regular.ttf) format('TrueType');
+}
+@media screen and (max-width: 992px){
+	.logo{
+		display: none!important;
+	}
+	.top-menu{
+		display: none!important;
+	}
+}
+.content-wrapper{
+	background-image:url('./2.jpg')!important;
+	background-size:cover;
+	background-position:center;
+}
+.box{
+	opacity: 0.8;
+}
+.content-header h1{
+	color:#fff;
+}
